@@ -1,0 +1,59 @@
+/* NowWare styles      -------------------- */
+/* to be references after bootstrap styles  */
+/* John Earl Hardesty                       */
+
+/* NowWare styls */
+ol li {color: #ccc;}
+ol li.active {color: black; font-weight: 400;}
+.hidden {color: white;}
+.speak {margin-top: 10em;}
+
+/* Progress bar styles   ------------------------ */
+/* https://css-tricks.com/html5-progress-element/ */
+progress[value] {
+    -webkit-appearance: none;
+    appearance: none;
+    height: 20px; 
+    width: 280px;
+}
+progress[value]::-webkit-progress-bar {
+    background-color: #eee;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.55) inset;
+}
+progress[value]::-webkit-progress-value {
+    background-image: -webkit-linear-gradient(-45deg, 
+	                           transparent 33%, rgba(0, 0, 0, .1) 33%, 
+	                           rgba(0,0, 0, .1) 66%, transparent 66%),
+	   -webkit-linear-gradient(top, 
+	                           rgba(255, 255, 255, .25), 
+	                           rgba(0, 0, 0, .25)),
+	   -webkit-linear-gradient(left,  rgb(150,200,250), rgb(50,100,150));
+    border-radius: 10px;
+    background-size: 35px 20px, 100% 100%, 100% 100%;
+
+}
+
+
+.nextStep {
+    display: inline-block;
+    border-color: rgb(25,50,75);
+    background-color: rgb(50,100,150);
+    color: white;
+    width: 300px;
+    padding: 0.75em;
+    border-radius: 25px;
+    margin-top: 1em;
+}
+
+/* audit belows styles if they are needed 2019-03-27 */
+
+.titleCase { 
+    text-transform: capitalize;
+}
+
+/* code for calendar */
+* {box-sizing: border-box;}
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
